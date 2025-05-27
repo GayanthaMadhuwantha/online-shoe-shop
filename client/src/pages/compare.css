@@ -1,0 +1,10 @@
+.table-compare td, .table-compare th {
+    vertical-align: middle;
+    padding: 1rem;
+  }
+  .table-compare tr:not(:last-child) {
+    border-bottom: 1px solid #eee;
+  }
+  .object-fit-cover {
+    object-fit: cover;
+  }
