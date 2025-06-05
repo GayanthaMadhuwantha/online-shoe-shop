@@ -172,6 +172,7 @@ const App = () => {
         <div className="overlay">
           <Routes>
             <Route path="/" element={<ProductPage cart={cart} setCart={setCart} handleAddProductCompare={handleAddProductCompare} handleAddToWishlist={handleAddToWishlist} />} />
+            <Route path="/products" element={<ProductPage cart={cart} setCart={setCart} handleAddProductCompare={handleAddProductCompare} handleAddToWishlist={handleAddToWishlist} />} />
             <Route path="/checkout" element={<Checkout cart={cart} setCart={setCart} />} />
             <Route path="/cash-on-delivery" element={<CashOnDelivery />} />
             <Route path="/create-invoice" element={<InvoiceForm />} />
